@@ -1,0 +1,26 @@
+$color: darkkhaki;
+$color2: crimson;
+$transparent: rgba(0, 0, 0, 0);	
+
+.app {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  @media screen and (max-width: 900px){
+	height: initial;
+	
+}
+  
+  background: #1c1e21;
+
+
+//   background:
+// 		linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+// 		linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+// 		$dot-color;
+// 	    background-size: $dot-space $dot-space;
+ 
+  
+ 
+  
+
+}

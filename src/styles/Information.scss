@@ -1,0 +1,125 @@
+@import '../styles/Variables.scss';
+
+.conteiner-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;  
+    border-top: 20px;   
+    text-align: center;
+    align-items: center;   
+    
+    & h1 {
+        margin-top: 15px;
+        color: $color1;
+    } 
+    & ul {
+        display: flex;
+        gap: 20px;
+        padding: 0;
+        background-color: $bg2;
+        & a {
+            text-decoration: none;
+            color: $color1;  
+            & li {
+                list-style: none;
+                & p {
+                    color: $color1;
+                    transition: box-shadow .3s; 
+                    margin: 0%;
+                }
+                & p:hover {
+                    box-shadow: 10px 10px lightblue;
+                    background-color: lightblue;
+                    color: $color1;
+                    
+                }
+            }
+        
+        }
+        
+    
+    }
+    
+}
+.conteiner-works {
+    width: 100%; 
+}
+.swiper {
+    width: 100%;
+    
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    @media screen and (min-width: 900px){
+        width: 700px;
+        height: 400px;
+    }
+  }
+.conteiner-infoworks {
+    align-items: center;
+    & h1 {
+        font-size: 20px;
+        background: $bg2;
+    }
+    &_todo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items:stretch;
+        gap: 10px;
+        text-align: center;
+        & ul {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            
+            & li {
+                text-align: left;
+                align-items: center;
+                list-style: circle;
+                color: $color1;
+            }
+        }
+    }
+    &_works {
+        background: $bg2;
+        align-items: center;
+        & h1 {
+            font-size: 20px;
+            text-align: right;
+        }
+        & img {
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            object-fit: cover;
+            transition: transform .5s ease;
+            box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+
+        } img:hover {
+            transform: scale(1.5);
+            box-shadow: 0px -5px 10px 0px rgba(121, 119, 119, 0.5);
+
+        }
+        & p {
+            color: $color1;
+        }
+    }
+    
+}
