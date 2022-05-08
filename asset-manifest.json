@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ornamentacionjuanka/static/css/main.d2723249.css",
+    "main.js": "/ornamentacionjuanka/static/js/main.879af910.js",
+    "static/media/inforworksimage1.jpeg": "/ornamentacionjuanka/static/media/inforworksimage1.a8b27c2294885b720eb0.jpeg",
+    "static/media/orna2.jpeg": "/ornamentacionjuanka/static/media/orna2.36830cf224f1f4ee72c9.jpeg",
+    "static/media/orna1.jpg": "/ornamentacionjuanka/static/media/orna1.e5eec2e690c273b872c0.jpg",
+    "static/media/inforworksimage2.jpeg": "/ornamentacionjuanka/static/media/inforworksimage2.29531013658c2fa6adde.jpeg",
+    "static/media/orna3.jpeg": "/ornamentacionjuanka/static/media/orna3.9b4e3e7ada78c97892ca.jpeg",
+    "index.html": "/ornamentacionjuanka/index.html",
+    "main.d2723249.css.map": "/ornamentacionjuanka/static/css/main.d2723249.css.map",
+    "main.879af910.js.map": "/ornamentacionjuanka/static/js/main.879af910.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2723249.css",
+    "static/js/main.879af910.js"
+  ]
+}
