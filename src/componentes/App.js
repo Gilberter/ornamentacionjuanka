@@ -1,6 +1,5 @@
 import React from 'react';
 import { Information } from './Information';
-
 import { Contact } from './Contact';
 import '../styles/App.scss';
 import {
@@ -15,8 +14,7 @@ const App = () => {
   <Router>
       <div className='app'>
         <Routes>
-          <Route exact path='/' element={<Information />} /> 
-          
+          <Route exact path='/ornamentacionjuanka/' element={<Information />} />
           <Route exact path='contact-us' element={<Contact />} /> 
         </Routes>
       </div>
